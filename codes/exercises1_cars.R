@@ -9,3 +9,5 @@ korean_cars <- read_csv("datasets/한국자동차_연비.csv",
 
 library(writexl)
 write_xlsx(korean_cars, "datasets/korean_cars.xlsx")
+
+korean_cars
